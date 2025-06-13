@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
           <MountainSnow className="h-8 w-8" />
-          <span className="text-2xl font-headline font-bold">Trailblaze</span>
+          <span className="text-2xl font-headline font-bold">Pretoria Hiking Club</span>
         </Link>
         <ul className="flex items-center space-x-4 md:space-x-6">
           {navLinks.map((link) => (

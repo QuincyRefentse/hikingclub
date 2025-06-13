@@ -78,7 +78,7 @@ export default function AuthForm({ mode }: AuthFormProps) {
           {isLogin ? "Welcome Back!" : "Create Your Account"}
         </CardTitle>
         <CardDescription className="text-md text-muted-foreground">
-          {isLogin ? "Login to access your Trailblaze account." : "Join our community of nature lovers."}
+          {isLogin ? "Login to access your Pretoria Hiking Club account." : "Join our community of nature lovers."}
         </CardDescription>
       </CardHeader>
       <Form {...form}>

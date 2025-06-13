@@ -20,7 +20,7 @@ export default function ProfilePage() {
       <section className="text-center">
         <UserCircle className="h-16 w-16 text-primary mx-auto mb-4" />
         <h1 className="text-5xl font-headline font-bold text-primary mb-2">My Profile</h1>
-        <p className="text-lg text-muted-foreground">Manage your Trailblaze account and preferences.</p>
+        <p className="text-lg text-muted-foreground">Manage your Pretoria Hiking Club account and preferences.</p>
       </section>
 
       <div className="grid md:grid-cols-3 gap-8">

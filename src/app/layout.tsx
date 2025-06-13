@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Trailblaze - Pretoria Hiking Club',
+  title: 'Pretoria Hiking Club',
   description: 'Pretoria Hiking Club - Your adventure starts here.',
 };
 

@@ -29,7 +29,7 @@ export default function Home() {
             Discover Your Next <span className="text-primary">Adventure</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 text-foreground/80">
-            Join Trailblaze, the premier hiking club in Pretoria. Explore breathtaking trails, connect with nature, and forge new friendships.
+            Join Pretoria Hiking Club, the premier hiking club in Pretoria. Explore breathtaking trails, connect with nature, and forge new friendships.
           </p>
           <Link href="/events" passHref legacyBehavior>
             <Button size="lg" className="bg-primary hover:bg-primary/80 text-primary-foreground text-lg px-8 py-6">
@@ -43,13 +43,13 @@ export default function Home() {
       <section className="py-12">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-headline font-semibold mb-6 text-primary">Welcome to Trailblaze</h2>
+            <h2 className="text-4xl font-headline font-semibold mb-6 text-primary">Welcome to Pretoria Hiking Club</h2>
             <p className="text-lg text-foreground/90 mb-4">
               We are a passionate community of hikers based in Pretoria, dedicated to exploring the great outdoors. 
               Our club organizes a variety of activities, from leisurely nature treks to challenging mountain hikes, catering to all skill levels.
             </p>
             <p className="text-lg text-foreground/90 mb-6">
-              At Trailblaze, we believe in the power of nature to inspire, rejuvenate, and connect us. Whether you're a seasoned hiker or just starting out, you'll find a welcoming group and unforgettable experiences with us.
+              At Pretoria Hiking Club, we believe in the power of nature to inspire, rejuvenate, and connect us. Whether you're a seasoned hiker or just starting out, you'll find a welcoming group and unforgettable experiences with us.
             </p>
             <Link href="/signup" passHref legacyBehavior>
               <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
