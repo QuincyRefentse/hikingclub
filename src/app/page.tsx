@@ -62,11 +62,11 @@ export default function Home() {
           <div className="rounded-lg overflow-hidden shadow-xl">
             <Image 
               src="https://placehold.co/600x400.png" 
-              alt="Group of hikers enjoying a view" 
+              alt="Two hikers and a dog on a sunny mountain trail" 
               width={600} 
               height={400}
               className="object-cover"
-              data-ai-hint="community hike" 
+              data-ai-hint="mountain trail hikers" 
             />
           </div>
         </div>
