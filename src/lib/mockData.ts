@@ -9,6 +9,7 @@ export const mockEvents: Event[] = [
     difficulty: 'Medium',
     location: 'Wonderboom Nature Reserve',
     imageUrl: 'https://placehold.co/400x250.png',
+    dataAiHint: 'wonderboom sunrise',
     capacity: 20,
     slug: 'sunrise-wonderboom'
   },
@@ -20,6 +21,7 @@ export const mockEvents: Event[] = [
     difficulty: 'Hard',
     location: 'Faerie Glen Nature Reserve',
     imageUrl: 'https://placehold.co/400x250.png',
+    dataAiHint: 'trail running',
     capacity: 15,
     slug: 'faerie-glen-trail-run'
   },
@@ -31,6 +33,7 @@ export const mockEvents: Event[] = [
     difficulty: 'Easy',
     location: 'Groenkloof Nature Reserve',
     imageUrl: 'https://placehold.co/400x250.png',
+    dataAiHint: 'family hiking',
     capacity: 30,
     slug: 'groenkloof-family-walk'
   },
@@ -42,6 +45,7 @@ export const mockEvents: Event[] = [
     difficulty: 'Medium',
     location: 'Hennops Hiking Trail',
     imageUrl: 'https://placehold.co/400x250.png',
+    dataAiHint: 'hennops trail',
     capacity: 25,
     slug: 'hennops-adventure'
   }

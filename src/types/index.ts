@@ -8,6 +8,7 @@ export interface Event {
   difficulty: Difficulty;
   location: string;
   imageUrl: string;
+  dataAiHint?: string; // Added hint for event images
   capacity?: number; // Optional, for booking limits
   slug: string;
 }

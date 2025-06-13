@@ -20,7 +20,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
           width={400}
           height={250}
           className="w-full h-48 object-cover"
-          data-ai-hint="hiking landscape"
+          data-ai-hint={event.dataAiHint || "hiking landscape"}
         />
       </CardHeader>
       <CardContent className="p-4 flex-grow">
