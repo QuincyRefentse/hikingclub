@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
@@ -8,7 +9,7 @@ export default function MapPage() {
         <MapPin className="h-16 w-16 text-primary mx-auto mb-4" />
         <h1 className="text-5xl font-headline font-bold text-primary mb-4">Explore Our Trails</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Discover the diverse hiking trails curated by Trailblaze around Pretoria. Plan your next adventure with our interactive map.
+          Discover the diverse hiking trails curated by Pretoria Hiking Club around Pretoria. Plan your next adventure with our interactive map.
         </p>
       </section>
 
@@ -20,7 +21,7 @@ export default function MapPage() {
             alt="Interactive Trail Map Placeholder"
             layout="fill"
             objectFit="cover"
-            data-ai-hint="trail map illustration"
+            data-ai-hint="terrain map"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black/50">
             <p className="text-2xl text-white font-semibold p-4 bg-black/70 rounded">

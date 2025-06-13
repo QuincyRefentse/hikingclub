@@ -21,7 +21,7 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
           className="z-0"
-          data-ai-hint="mountain sunrise"
+          data-ai-hint="adventure landscape"
           priority
         />
         <div className="absolute inset-0 bg-black/60 z-10"></div>
@@ -66,7 +66,7 @@ export default function Home() {
               width={600} 
               height={400}
               className="object-cover"
-              data-ai-hint="hiking group" 
+              data-ai-hint="community hike" 
             />
           </div>
         </div>
