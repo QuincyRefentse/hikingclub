@@ -1,3 +1,4 @@
+
 import type { Event } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -47,7 +48,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
         <CardDescription className="mt-3 text-foreground line-clamp-3">{event.description}</CardDescription>
       </CardContent>
       <CardFooter className="p-4 border-t border-border">
-        <Link href={`/events/${event.slug}/book`} passHref legacyBehavior>
+        <Link href={`/events/${event.slug}/book`}>
           <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Book Now</Button>
         </Link>
       </CardFooter>

@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -31,7 +32,7 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 text-foreground/80">
             Join Pretoria Hiking Club, the premier hiking club in Pretoria. Explore breathtaking trails, connect with nature, and forge new friendships.
           </p>
-          <Link href="/events" passHref legacyBehavior>
+          <Link href="/events">
             <Button size="lg" className="bg-primary hover:bg-primary/80 text-primary-foreground text-lg px-8 py-6">
               Explore Events
             </Button>
@@ -51,7 +52,7 @@ export default function Home() {
             <p className="text-lg text-foreground/90 mb-6">
               At Pretoria Hiking Club, we believe in the power of nature to inspire, rejuvenate, and connect us. Whether you're a seasoned hiker or just starting out, you'll find a welcoming group and unforgettable experiences with us.
             </p>
-            <Link href="/signup" passHref legacyBehavior>
+            <Link href="/signup">
               <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
                 <Users className="mr-2 h-5 w-5" />
                 Join Our Community
@@ -80,7 +81,7 @@ export default function Home() {
           ))}
         </div>
         <div className="text-center mt-10">
-          <Link href="/events" passHref legacyBehavior>
+          <Link href="/events">
             <Button size="lg" variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90">
               View All Events
             </Button>
@@ -97,7 +98,7 @@ export default function Home() {
           ))}
         </div>
         <div className="text-center mt-10">
-          <Link href="/gallery" passHref legacyBehavior>
+          <Link href="/gallery">
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               Explore Full Gallery
             </Button>
@@ -112,7 +113,7 @@ export default function Home() {
         <p className="text-lg text-foreground/80 mb-6 max-w-2xl mx-auto">
           Our AI Hiking Assistant can provide personalized tips, gear recommendations, and safety advice for your next adventure.
         </p>
-        <Link href="/ai-assistant" passHref legacyBehavior>
+        <Link href="/ai-assistant">
           <Button size="lg" className="bg-primary hover:bg-primary/90">
             Try the AI Assistant
           </Button>
